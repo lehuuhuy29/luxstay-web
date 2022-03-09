@@ -4,6 +4,14 @@
     margin-top: 40px;
   }
 
+  .content-section___desc {
+    margin-top: 15px;
+  }
+
+.suggest__silder, .home-suggest__silder, .home-guide__silder, .home-news__silder, .home-endow, .home-location__silder  {
+  margin-top: 10px;
+  }
+
   .header__nav-list, .header__language {
     display: none;
   }
@@ -163,5 +171,13 @@
 
   .footer {
     padding: 20px 0 0;
+  }
+
+  .content__text-seen {
+    width: 92px;
+  }
+
+  .content-header {
+    align-items: flex-start;
   }
 }
