@@ -1,5 +1,9 @@
 /* Tablet and mobile */
 @media (max-width: 1023px) {
+  .content-section {
+    margin-top: 40px;
+  }
+
   .header__nav-list, .header__language {
     display: none;
   }

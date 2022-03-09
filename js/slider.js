@@ -55,7 +55,7 @@ $(document).ready(function () {
       {
         breakpoint: 740,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -88,34 +88,4 @@ $(document).ready(function () {
       },
     ],
   });
-
-  // $(".home-guide__silder").slick({
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  //   infinite: false,
-  //   arrows: false,
-  //   prevArrow:
-  //     "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-  //   nextArrow:
-  //     "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-  //   responsive: [
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 1,
-  //         arrows: true,
-  //       },
-  //     },
-
-  //     {
-  //       breakpoint: 740,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         arrows: true,
-  //       },
-  //     },
-  //   ],
-  // });
 });
