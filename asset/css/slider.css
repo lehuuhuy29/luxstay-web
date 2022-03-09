@@ -1,0 +1,77 @@
+.slick-list {
+    margin: 0 -8px;
+}
+
+.slick-arrow {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    background-color: var(--white-color);
+    box-shadow: 0 0 7px -4px #000;
+    transition: all 0.25s linear;
+    cursor: pointer;
+}
+
+.slick-arrow:hover {
+    outline: none;
+    box-shadow: 0 0 5px 0 rgb(246 94 57 / 50%);
+}
+
+.slick-arrow:hover i {
+    color: #f65e39;
+}
+
+.slick-prev {
+    left: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-next {
+    right: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-disabled {
+    opacity: 0.5;
+}
+
+.slick-disabled:hover {
+    cursor: default;
+    box-shadow: 0 0 7px -4px #000;
+}
+
+.slick-disabled:hover i {
+    color: #000;
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 24px;
+    right: 20px;
+}
+
+.slick-dots li button {
+    border-radius: 50%;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    font-size: 0;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.slick-dots li ~ li{
+    margin-left: 8px;
+}
+
+.slick-dots li.slick-active button{
+    background: rgba(0, 0, 0, 0.5);
+}

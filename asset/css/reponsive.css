@@ -1,0 +1,163 @@
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+  .header__nav-list, .header__language {
+    display: none;
+  }
+
+  .header__container {
+    padding: 0 20px;
+  }
+  .header__language-mobile, .header__nav-list-mobile {
+    display: block;
+  }
+
+  .header__nav-item {
+    display: block;
+  }
+
+  .header__nav-link {
+    padding: 16px 8px;
+  }
+
+  .header__nav-item--active .header__nav-link{
+    padding-left: 20px;
+    font-weight: 600;
+  }
+
+  .header__nav-item--active .header__nav-link::before {
+    top: 10px;
+    left: 60px;
+  }
+  
+  .header__language-wrap {
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .header__language-mobile-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__language-detail {
+    flex-direction: column;
+    min-width: 280px;
+    top: 100%;
+    right: 2px;
+  }
+
+  .header__contry {
+    border-right: none;
+  }
+
+  .header-mobile__menu-icon-wrap {
+    display: block;
+  }
+
+  .home-endow {
+    overflow-x: auto;
+  }
+
+  .home-app__contact {
+    margin: 10px 0;
+  }
+
+  .header-with-search {
+    flex: 1;
+  }
+
+  .header__search {
+    flex: 1;
+    justify-content: space-between;
+  }
+  .header__search-input-wrap {
+    flex: 1;
+  }
+
+  
+
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .header__logo {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 8px;
+  }
+  
+  .calendar {
+    left: calc(50% - 48px);
+  }
+
+  .home-endow__item {
+    width: 33.333%;
+  }
+
+  .home-guide__item {
+    width: 30%;
+  }
+} 
+
+/* Mobile */
+@media (max-width: 739px) {
+  .home-slider__list {
+    display: none;
+  }
+
+  .container {
+    overflow: hidden;
+    padding: 0 16px;
+  }
+
+  .home-endow__item {
+    width: 80%;
+  }
+
+  .home-guide__item {
+    width: 80%;
+  }
+
+  .header__container {
+    padding: 0 10px;
+    justify-content: space-between;
+  }
+  .homestay__list {
+    position: fixed;
+    top: 77px;
+    left: 0;
+    max-width: 100%;
+    z-index: 99;
+  }
+
+  .header__logo, .header__search-date, .header__search-person {
+    display: none;
+  }
+
+  .header__search {
+    width: 320px;
+  }
+
+  .homestay__list {
+    width: calc(100% + 60px);
+  }
+
+  .home-location__silder-title {
+    font-size: 2rem;
+  }
+  .footer_contact {
+    padding: 0 16px;
+  }
+
+  .footer__copyright {
+    border-top: none;
+    background-color: #f6f6f6;
+    padding: 30px 16px;
+  }
+
+  .footer {
+    padding: 20px 0 0;
+  }
+}
